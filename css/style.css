@@ -466,3 +466,18 @@
           font-size: 2.2rem;
       }
   }
+
+/* Mise en page complète
+   ========================================================================== */
+
+/* body */
+
+  .layout-page{
+    padding:2rem;
+    }
+    @media(min-width:600px){
+    .layout-page{
+    max-width:1000px;
+    margin:auto;
+    }
+  }
