@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div class="layout_page">
+    <div class="layout-page">
 
         <header id="header" role="header">
             <nav class="nav nav--header" role="navigation">
@@ -18,10 +18,10 @@
                     <img src="/images/logo-final.png" alt="Logo Accueil">
                 </a>
                 <ul class="nav__liste">
-                    <li class="nav__liste-items"><a class="nav__liste-lien" href="artistes.html">Artistes</a></li>
-                    <li class="nav__liste-items"><a class="nav__liste-lien" href="blogue.html">Blogue</a></li>
-                    <li class="nav__liste-items"><a class="nav__liste-lien" href="ressources.html">Ressources</a></li>
-                    <li class="nav__liste-items"><a class="nav__liste-lien" href="a-propos.html">À&nbsp;propos </a></li>
+                    <li class="nav__liste-items"><a class="nav__liste-lien nav__liste-lien--active" href="artistes.html">Artistes</a></li>
+                    <li class="nav__liste-items"><a class="nav__liste-lien nav__liste-lien--active" href="blogue.html">Blogue</a></li>
+                    <li class="nav__liste-items"><a class="nav__liste-lien nav__liste-lien--active" href="ressources.html">Ressources</a></li>
+                    <li class="nav__liste-items"><a class="nav__liste-lien nav__liste-lien--active" href="a-propos.html">À&nbsp;propos </a></li>
                 </ul>
             </nav>
             <picture class="picture__entete">
@@ -31,6 +31,7 @@
             </picture>
         </header>
         <main id="main" role="main">
+            <section class="introduction">
             <h1>Jean-Charles Debroize</h1>
             <h2 class="sous-titre">Les photomanipulations originales de Jean-Charles Debroize</h2>
             <p class="texte-presentation">
@@ -43,6 +44,7 @@
                 sait mettre en valeur le potentiel créatif des produits Adobe, mais plus que tout, fait valoir l’immense
                 talent de cet artiste&#8293;!
             </p>
+        </section>
             <div class="article">
                 <section class="section">
                     <h2>
@@ -70,7 +72,7 @@
                     </h2>
                     <figure>
                         <img src="/images/2-melodie_600.jpg" alt="«Enfant pilotant un oiseau» ©Debroize,">
-                        <figcaption>«Enfant pilotant un oiseau» ©Debroize,<time>2016</time></figcaption>
+                        <figcaption>«Enfant pilotant un oiseau» <br>©Debroize,<time>2016</time></figcaption>
                     </figure>
                     <p class="texte">
                         Progressivement Debroize se perfectionne sur les logiciels de retouche d’images et développe un
@@ -87,7 +89,7 @@
                     </h2>
                     <figure>
                         <img src="/images/3-ours_600.jpg" alt="« Jeune fille chevauchant un ours»,© Debroize">
-                        <figcaption>«Jeune fille chevauchant un ours»,© Debroize,<time>2017</time></figcaption>
+                        <figcaption>«Jeune fille chevauchant un ours»,<br>© Debroize,<time>2017</time></figcaption>
                     </figure>
                     <p class="texte">
                         Chaque année, Debroize inspire jeunes et moins jeunes à réaliser des photomontages des plus
@@ -116,9 +118,10 @@
                 </ul>
             </section>
             <aside class="infolettre">
-                <h2 class="infolettre__titre">Une excellente manière de découvrir un artiste du domaine numérique,
+                <h2 class="infolettre__titre">Abonnez-vous à l'infolettre</h2>
+                <p class="texte">Une excellente manière de découvrir un artiste du domaine numérique,
                     chaque
-                    semaine!</h2>
+                    semaine!</p>
                 <form class="infolettre__form" action="index.html">
                     <label for="courriel">Inscrivez votre addresse courriel:</label><br>
                     <input id="courriel" name="courriel" type="email">
@@ -126,41 +129,41 @@
                 </form>
             </aside>
         </div>
-        <footer id="footer" role="contentinfo">
+        <footer class="footer" role="contentinfo">
             <nav class="nav nav--footer">
                 <ul class="nav__liste">
-                    <li class="nav__liste-items"><a class="nav__liste-lien" href="artistes.html">Artistes</a></li>
-                    <li class="nav__liste-items"><a class="nav__liste-lien" href="blogue.html">Blogue</a></li>
-                    <li class="nav__liste-items"><a class="nav__liste-lien" href="ressources.html">Ressources</a></li>
-                    <li class="nav__liste-items"><a class="nav__liste-lien" href="a-propos.html">À&nbsp;propos </a></li>
+                    <li class="nav__liste-items nav--footer__liste-items"><a class="nav__liste-lien nav--footer__liste-lien nav__liste-lien--active" href="artistes.html">Artistes</a></li>
+                    <li class="nav__liste-items nav--footer__liste-items"><a class="nav__liste-lien nav--footer__liste-lien nav__liste-lien--active" href="blogue.html">Blogue</a></li>
+                    <li class="nav__liste-items nav--footer__liste-items"><a class="nav__liste-lien nav--footer__liste-lien nav__liste-lien--active" href="ressources.html">Ressources</a></li>
+                    <li class="nav__liste-items nav--footer__liste-items"><a class="nav__liste-lien nav--footer__liste-lien nav__liste-lien--active" href="a-propos.html">À&nbsp;propos </a></li>
                 </ul>
             </nav>
+            <div class="bas_de_page">
             <section class="source--images">
-            <h2>Sources des images</h2>
-            <ol>
-                <li class="source--image__item">
-                    Illustration de ballon<br>
-                    <a class="source--image__lien"
-                        href="https://www.behance.net/gallery/44848523/Adobe-Creative-Cloud">behance.net/gallery/44848523/Adobe-Creative-Cloud</a>
-                </li>
-                <li class="source--image__item">Enfant pilotant un oiseau<br>
-                    <a class="source--image__lien"
-                        href="https://www.behance.net/gallery/31608315/Mlodies-en-Courts">behance.net/gallery/31608315/Mlodies-en-Courts</a>
-                </li>
-                <li class="source--image__item">Jeune fille chevauchant un ours<br>
-                    <a class="source--image__lien"
-                        href="https://www.behance.net/gallery/44945511/Adobe-Creative-Cloud">behance.net/gallery/44945511/Adobe-Creative-Cloud</a>
-                </li>
-            </ol>
-        </section>
-        <div class="rights">
-            <p class="copyright"><small>Tous droits réservés, © Projet en Techniques d’intégration multimédia
-                    (timcsf.ca), Cégep de
-                    Sainte-Foy,
-                    <time>2022</time>
-                </small>
-            </div>
+                <h2 class="source_h2">Sources des images</h2>
+                <ol class="liste_source">
+                    <li class="source--image__item">
+                        Illustration de ballon<br>
+                        <a class="source--image__lien"
+                            href="https://www.behance.net/gallery/44848523/Adobe-Creative-Cloud">behance.net/gallery/44848523/Adobe-Creative-Cloud</a>
+                    </li>
+                    <li class="source--image__item">Enfant pilotant un oiseau<br>
+                        <a class="source--image__lien"
+                            href="https://www.behance.net/gallery/31608315/Mlodies-en-Courts">behance.net/gallery/31608315/Mlodies-en-Courts</a>
+                    </li>
+                    <li class="source--image__item">Jeune fille chevauchant un ours<br>
+                        <a class="source--image__lien"
+                            href="https://www.behance.net/gallery/44945511/Adobe-Creative-Cloud">behance.net/gallery/44945511/Adobe-Creative-Cloud</a>
+                    </li>
+                </ol>
+            </section>
+                <p class="copyright"><small>Tous droits réservés, © Projet en Techniques d’intégration multimédia
+                        (timcsf.ca), Cégep de
+                        Sainte-Foy,
+                        <time>2022</time>
+                    </small>
             </p>
+        </div>
         </footer>
     </div>
 </body>
